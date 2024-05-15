@@ -1,6 +1,6 @@
 import pytest
 from unittest import mock
-from src.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
+from src.helpers.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
 from src.webscrape_legal_risk.risk_detector import RiskDetector
 from src.webscrape_legal_risk.scraping_risk_engine import ScrapingRiskEngine, RiskResult
 

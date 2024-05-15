@@ -1,5 +1,5 @@
 from src.webscrape_legal_risk.risk_detector import RiskDetector, RiskResult
-from src.llm_api.chat_gpt import ChatGpt
+from src.helpers.llm_api.chat_gpt import ChatGpt
 
 class TermsAndConditionRiskDetector (RiskDetector):
     _RISK_DESCRIPTION = "ChatGPT Terms & conditions interpretation"

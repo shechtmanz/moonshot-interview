@@ -1,5 +1,5 @@
 from src.webscrape_legal_risk.risk_detector import RiskDetector, RiskResult
-from src.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
+from src.helpers.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
 
 class HtmlRobotsMetadaRiskDetector (RiskDetector):
     

@@ -1,6 +1,6 @@
 import pytest
 from unittest import mock
-from src.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
+from src.helpers.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
 from src.webscrape_legal_risk.html_robots_metadata_risk_detector import HtmlRobotsMetadaRiskDetector
 
 @pytest.mark.parametrize("robot_content_list_mock, preventative_robot_content_list_expected", [

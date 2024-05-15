@@ -1,5 +1,5 @@
 import pytest
-from src.llm_api.chat_gpt import ChatGpt
+from src.helpers.llm_api.chat_gpt import ChatGpt
 
 
 # Warning: this test might break if shopbop.com changes their <metadata name="ROBOTS" Content="index, follow"> tag - consider mocking

@@ -1,5 +1,5 @@
 import pytest
-from src.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
+from src.helpers.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
 
 # www.shopbop.com is a static website, it returns the full HTML
 # by testing http on Shopbop we test redirction to https.

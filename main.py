@@ -1,7 +1,7 @@
 from src.webscrape_legal_risk.scraping_risk_engine import ScrapingRiskEngine
 from src.webscrape_legal_risk.risk_detector import RiskResult
 
-from src.llm_api.chat_gpt import ChatGpt
+from src.helpers.llm_api.chat_gpt import ChatGpt
 
 def print_result(risk_result_list: list[RiskResult]):
     print ()

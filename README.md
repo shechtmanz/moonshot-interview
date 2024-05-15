@@ -17,7 +17,7 @@ Install Selenium webdriver. Follow [this link](https://www.geeksforgeeks.org/how
 
 ## run the tests
 ```
-python -m pytest
+python -m pytest -v
 ```
 
 ## Run the application

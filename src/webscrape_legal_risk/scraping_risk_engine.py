@@ -1,8 +1,8 @@
 from src.webscrape_legal_risk.html_robots_metadata_risk_detector import HtmlRobotsMetadaRiskDetector 
 from src.webscrape_legal_risk.tc_risk_detector import TermsAndConditionRiskDetector
-from src.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
+from src.helpers.webscrape_browser.scraper_dynamic_page import ScraperDynamicPage
 from src.webscrape_legal_risk.risk_detector import RiskDetector, RiskResult
-from src.llm_api.chat_gpt import ChatGpt
+from src.helpers.llm_api.chat_gpt import ChatGpt
 
 class ScrapingRiskEngine:
 
