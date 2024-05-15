@@ -1,3 +1,10 @@
+
+# Overview
+This CLI application asks for a website url and checks whether it is likely legally safe to scrape it.
+Currently, it conducts the following checks
+* Checks that theres is no prohibitive values in the returned HTML header robots metadata tag (e.g. noindex, nofollow)
+* Asks ChatGPT 
+
 ## Setup
 Create a file .env with 
 ```
